@@ -1,0 +1,63 @@
+/* index.css */
+.card {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .destination-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .destination-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .destination-info {
+    text-align: center;
+  }
+  
+  .destination-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .destination-description,
+  .destination-location {
+    margin: 5px 0;
+  }
+  
+  .destination-detail {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .destination-detail img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .destination-detail a {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  

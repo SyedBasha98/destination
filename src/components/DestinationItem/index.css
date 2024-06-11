@@ -1,0 +1,21 @@
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+li{
+    list-style-type: none;
+    width: 235px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+li :hover{
+    transform: scale(1.1);
+
+}
+name {
+font-size: 20px;
+}
